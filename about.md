@@ -4,15 +4,15 @@ title: About Me
 permalink: /about/
 ---
 
-## Hello, I'm [Your Name]
+## Hello, I'm Radha.
 
 ![Profile Photo](/assets/images/profile.jpg)
 
-Welcome to my personal website! I'm a [your profession/field] based in [your location]. I created this site to share my work, thoughts, and interests with the world.
+Welcome to my personal website! I'm a qualified management accountant based in the UK. I created this site to share my work, thoughts, and interests with the world.
 
 ### My Background
 
-I have [X years] of experience in [your industry/field]. My journey began when [brief story about how you got started]. Since then, I've worked on [types of projects or with types of organizations].
+I have 5 years of experience in [your industry/field]. My journey began when [brief story about how you got started]. Since then, I've worked on [types of projects or with types of organizations].
 
 Some of my key skills include:
 
