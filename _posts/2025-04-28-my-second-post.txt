@@ -1,0 +1,105 @@
+---
+layout: post
+title: "Getting Started with Jekyll and GitHub Pages"
+date: 2025-04-28
+categories: tutorials
+excerpt_separator: <!--more-->
+---
+
+# Getting Started with Jekyll and GitHub Pages
+
+If you're looking to create a professional website without the hassle of dealing with hosting costs or complex content management systems, Jekyll and GitHub Pages are an excellent combination. In this post, I'll walk you through what makes these technologies great and how to get started with your own site.
+
+<!--more-->
+
+## What is Jekyll?
+
+Jekyll is a static site generator that transforms plain text files (typically written in Markdown) into a complete, static website. Unlike dynamic websites that generate pages on the fly, Jekyll builds your site once, creating HTML files that can be served quickly and efficiently.
+
+### Key benefits of Jekyll:
+
+- **Speed**: Static sites load faster than dynamic sites
+- **Security**: No databases or server-side processing means fewer security vulnerabilities
+- **Simplicity**: Focus on content without complex backend systems
+- **Version Control**: Your entire site can be version-controlled with Git
+- **Markdown Support**: Write content in easy-to-use Markdown format
+
+## What is GitHub Pages?
+
+GitHub Pages is a free hosting service provided by GitHub that takes files directly from a GitHub repository and serves them as a website. When combined with Jekyll, it's a powerful solution for developers, writers, and anyone looking to create a professional web presence.
+
+### Benefits of GitHub Pages:
+
+- **Free Hosting**: No monthly hosting fees
+- **Custom Domains**: Use your own domain name
+- **Automatic Builds**: GitHub automatically builds your Jekyll site when you push changes
+- **HTTPS**: Free SSL certificates for secure browsing
+
+## Setting Up Your Site
+
+Here's a simplified process for getting your Jekyll site up and running on GitHub Pages:
+
+1. **Create a GitHub repository**: Name it `username.github.io` (replace "username" with your GitHub username)
+2. **Install Jekyll locally**: This allows you to develop and test your site before publishing
+```bash
+gem install bundler jekyll
+```
+3. **Create a new Jekyll site**:
+```bash
+jekyll new my-site
+cd my-site
+```
+4. **Push to GitHub**:
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/username/username.github.io.git
+git push -u origin main
+```
+5. **Wait for build**: GitHub will automatically build your site (usually takes a minute or two)
+6. **Visit your site**: Navigate to `https://username.github.io`
+
+## Customizing Your Jekyll Site
+
+Once your site is up and running, you can customize it to fit your needs:
+
+### Themes
+
+Jekyll supports themes that can completely change the look and feel of your site. You can choose from many free and premium themes available online.
+
+### Structure
+
+A typical Jekyll site has the following structure:
+
+```
+my-site/
+├── _config.yml          # Configuration file
+├── _posts/              # Blog posts
+├── _layouts/            # Page templates
+├── _includes/           # Reusable components
+├── assets/              # Images, CSS, JavaScript
+├── _site/               # Generated site (don't edit)
+└── index.md             # Homepage
+```
+
+### Configuration
+
+The `_config.yml` file controls various aspects of your site, including:
+
+- Site title and description
+- Social media links
+- Default layouts
+- Plugins and extensions
+
+## Conclusion
+
+Jekyll and GitHub Pages provide a powerful, free, and developer-friendly way to create and maintain websites. Whether you're building a personal blog, portfolio, or documentation site, this combination offers flexibility without complexity.
+
+In future posts, I'll dive deeper into specific aspects of Jekyll, including custom themes, plugins, and advanced features. Stay tuned!
+
+If you have any questions or want to share your own Jekyll site, feel free to leave a comment below.
+
+Happy coding!
+
+— [Your Name]

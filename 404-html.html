@@ -1,0 +1,51 @@
+---
+layout: default
+title: "404: Page not found"
+permalink: /404.html
+---
+
+<div class="error-page">
+  <h1>404</h1>
+  <h2>Page Not Found</h2>
+  <p>Sorry, the page you were looking for doesn't exist.</p>
+  <a href="{{ site.baseurl }}/" class="home-button">Return to Home</a>
+</div>
+
+<style>
+  .error-page {
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .error-page h1 {
+    font-size: 6rem;
+    margin: 0;
+    color: var(--primary-color);
+  }
+  
+  .error-page h2 {
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+    color: var(--secondary-color);
+  }
+  
+  .error-page p {
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #2980b9;
+  }
+</style>

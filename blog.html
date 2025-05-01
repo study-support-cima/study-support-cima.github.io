@@ -1,0 +1,31 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+
+<div class="blog-intro">
+  <p>Welcome to my blog, where I share thoughts, insights, and tutorials on web development, design, and technology.</p>
+</div>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-item">
+    <h2 class="post-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+    <p class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</p>
+    <div class="post-excerpt">
+      {{ post.excerpt }}
+    </div>
+    <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+  </li>
+  {% endfor %}
+</ul>
+
+<style>
+  .blog-intro {
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+  }
+</style>
